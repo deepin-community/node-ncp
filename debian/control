@@ -1,0 +1,32 @@
+Source: node-ncp
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Yadd <yadd@debian.org>
+Section: javascript
+Testsuite: autopkgtest-pkg-nodejs
+Priority: optional
+Build-Depends:
+ debhelper-compat (= 13)
+ , mocha <!nocheck>
+ , node-rimraf <!nocheck>
+ , node-async <!nocheck>
+ , dh-sequence-nodejs
+Standards-Version: 4.6.0
+Vcs-Browser: https://salsa.debian.org/js-team/node-ncp
+Vcs-Git: https://salsa.debian.org/js-team/node-ncp.git
+Homepage: https://github.com/AvianFlu/ncp
+Rules-Requires-Root: no
+
+Package: node-ncp
+Architecture: all
+Depends:
+ ${misc:Depends}
+ , nodejs
+Multi-Arch: foreign
+Description: Asynchronous recursive file copy utility - Node.js module
+ ncp is a Node.js module which provides asynchronous recursive file and
+ directory copying.
+ .
+ ncp supports several options to filter, transform the stream, disable
+ clobber, dereference, stop on error, catch errors in a stream.
+ .
+ Node.js is an event-based server-side JavaScript engine.
