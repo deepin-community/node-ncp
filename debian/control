@@ -10,7 +10,7 @@ Build-Depends:
  , node-rimraf <!nocheck>
  , node-async <!nocheck>
  , dh-sequence-nodejs
-Standards-Version: 4.6.0
+Standards-Version: 4.6.2
 Vcs-Browser: https://salsa.debian.org/js-team/node-ncp
 Vcs-Git: https://salsa.debian.org/js-team/node-ncp.git
 Homepage: https://github.com/AvianFlu/ncp
