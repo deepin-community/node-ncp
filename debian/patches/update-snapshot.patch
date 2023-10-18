@@ -1,0 +1,16 @@
+Description: update snapshot
+Author: Yadd <yadd@debian.org>
+Bug-Debian: https://bugs.debian.org/1049062
+Bug-Ubuntu: https://launchpad.net/bugs/<bugnumber>
+Forwarded: (no|not-needed|<patch-forwarded-url>)
+Applied-Upstream: <version>, (<commit-url>|commit:<commid-id>)
+Reviewed-By: <name and email of someone who approved/reviewed the patch>
+Last-Update: 2023-08-15
+
+--- a/test/modified-files/out/a
++++ b/test/modified-files/out/a
+@@ -1 +1 @@
+-test2
+\ No newline at end of file
++test3
+\ No newline at end of file
